@@ -1,0 +1,109 @@
+
+
+.qu{
+    color:red;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: cursive;
+    color: white;
+}
+header{
+    background-color: rgb(155, 9, 155);
+    background-image: linear-gradient(to top,rgba(156, 81, 163, 0.9)50%, rgba(136, 49, 139, 0.9)50%),url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+.navbar-item{
+    font-size: 25px;
+}
+.fa-gears{
+    font-size: 4rem;
+    color:red;
+}
+.line{
+    border-bottom:2px solid rgb(0, 255, 21);
+    width:400px;
+    text-align: center;
+    margin: auto;
+}
+.bg-2{
+    background-color: rgb(9, 155, 106);
+    background-image: linear-gradient(to top,rgba(49, 136, 139, 0.9)50%, rgba(49, 136, 139, 0.9)50%),url(../img/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+.portfolio img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.icon i{
+    font-size: 2rem;
+   
+   color: blue;
+   transition: all .3 ease 0.2;
+}
+.icon i:hover{
+    transform:scale(.8);
+    color: brown;
+}
+.bg-3{
+    background-color: rgb(231, 213, 231);
+    background-image: linear-gradient(to top,rgba(229, 241, 241, 0.9)50%, rgba(231, 234, 235, 0.9)50%),url(../img/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+.bg-4 img{
+    height: 300px;
+    width: 440px;
+}
+.bg-5 {
+    background-color: rgba(231, 220, 121, 0.712);
+    background-image: linear-gradient(to top,rgba(240, 56, 23, 0.904)50%, rgba(214, 51, 11, 0.897)50%),url(../img/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+.margin{
+    margin-right:220px ;
+}
+.bg-4{
+    background-color: rgb(225, 117, 117);
+    background-image: linear-gradient(to top,rgba(241, 140, 32, 0.9)50%, rgba(226, 122, 36, 0.9)50%),url(../img/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.bg-6{
+    background-color:rgb(62, 9, 112);
+}
+input,textarea{
+    color:white !important;
+    background-color: rgba(156, 81, 163, 0.9) !important;
+}
+footer ul li{
+    list-style: none;
+    display:inline-block;
+    font-size: 20px;
+    
+}
+footer{
+    background-color:rgb(47, 4, 87) ;
+}
+@media(max-width:576px) {
+    footer ul li{
+        font-size: 16px;
+        
+    }
+}

@@ -1,0 +1,39 @@
+   .navbar{
+        background:#fff;
+        opacity:.9;
+        box-shadow:5px 8x 5px aqua;
+       
+      
+    }
+    
+    @media(max-width: 576px)
+{
+        h2{
+            font-size:1rem;
+        }
+  
+}
+#subscribe{
+    background-color: rgb(43, 137, 226);
+    padding:30px 0px;
+}
+#showcase{
+    background-color: aquamarine;
+    
+}
+.scrolled{
+    background-color: crimson;
+}
+#portfolio img{
+        margin-top:-5%;
+        width: 20%;
+        border-radius:100%;
+    }
+
+#portfolio .card:hover{
+    background-color: aqua;
+    color:#fff;
+}
+.fab{
+    font-size:30px;
+}

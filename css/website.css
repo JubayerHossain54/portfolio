@@ -1,0 +1,326 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+   
+}
+
+.website{
+    width:1100px;
+    height: auto;
+    margin:0 auto;
+}
+header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+   min-height: 100px;
+   
+}
+
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    transition: all 3s ease .2s;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    text-transform:uppercase;
+    font-size:20px;
+    display: block;
+    color:black;
+
+}   
+nav ul li a:hover{
+    color:rgb(20, 220, 47);
+}
+a button{
+    background-color: crimson;
+    border:0px;
+    border-radius:10px;
+    padding:10px;
+    margin-right: 10px;
+    transition: all 3s ease .2s;
+    color: cornsilk;
+    
+}
+a button:hover{
+    background-color: rgba(59, 2, 13, 0.897);
+} 
+
+.logo img{
+    border:0px;
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+/* dropdownmenu */
+nav ul li ul{
+    position: absolute;
+    left:-99999px;
+    background-color: brown;
+    border:10px;
+}
+nav ul li:hover ul{
+    left:0px;
+}
+nav ul li ul li{
+    width: 180px;
+    padding:20px;
+    border-bottom: rgb(8, 238, 150) 2px solid;
+    
+}
+/*banner design*/
+.banner_cover{
+    background-image: url(../img/slider2.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner_text{
+    padding: 100px;
+    text-align: center;
+}
+.banner_text button{
+    border:0px;
+    margin: 0px 8px;
+    background-color: darkblue;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding:20px;
+}
+/*slider design*/
+.slider{
+    width:100%;
+    height:400px;
+    margin: 0px auto;
+    margin-top:20px;
+    background-image:url(img/men.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    animation:slider 20s infinite;
+}
+@keyframes slider{
+    25%{
+        background-image:url(img/men.jpg);
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    50%{
+        background-image:url(img/mypicture.jpg);
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    75%{
+        background-image:url(img/picture.jpg);
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    100%{
+        background-image:url(img/poster.jpg);
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+}
+
+/*about section design*/
+.about_section{
+    background: aquamarine;
+    padding: 40px 0px;
+    margin-top:20px;
+}
+.about_logo img{
+    width: 380px;
+    height: auto;
+    margin: 0px 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 10px 8px 0px black;
+
+
+}
+.about_text{
+    width: 680px;
+    height: auto;
+    padding:0px 40px;
+    
+}
+.row{
+    overflow: auto;
+}
+.col{
+    float: left;
+}
+.about_text h2{
+    margin-bottom: 15px;
+    border-bottom: 2px solid wheat;
+}
+.about_text p{
+    font-size: 17px;
+    line-height: 22px;
+    color:goldenrod;
+
+}
+.title{
+    width:260px;
+    text-transform:uppercase;
+    letter-spacing:.3em;
+    text-align:center;
+    margin: 0px auto;
+    border-bottom:2px solid wheat;
+    margin-bottom: 30px;
+}
+/* service-section design */
+.service-section{
+    background: rgb(130, 190, 170);
+    padding: 40px 0px;
+    margin-top: 10px;
+}
+.service{
+    width:340px;
+    height:auto;
+    border:1px solid wheat;
+    text-align: center;
+    display: inline-block;
+    margin:10px;
+}
+.serv-icon i{
+    font-size: 40px;
+    margin:10px 0px;
+    transition: .5s;
+}
+.serv-icon i:hover{
+    color:crimson;
+    transform:scale(.8);
+}
+.service h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.service p{
+    font-size:18px;
+    color:goldenrod;
+    padding:10px;
+
+}
+/*contract us section*/
+.contract-section{
+    background:rgb(182, 182, 214);
+    padding:40px 0px;
+    margin-top: 10px;
+}
+.contract{
+    width:280px;
+    background-color: white;
+    padding: 10px 10px 10px 60px;
+    box-shadow: rgb(20, 0, 0) 0px 0px 25px;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+.cont-icon i{
+    position: absolute;
+    font-size: 30px;
+    width:50px;
+    height: 50px;
+    background-color: black;
+    color:white;
+    float: left;
+    top:8px;
+    left:15px;
+    text-align: center;
+    margin: 0px 10px; 
+    line-height: 50px;
+    transition: .5s;
+    
+}
+.cont-text p{
+    padding: 0px;
+    margin:0px;
+    margin-left:20px;
+    line-height: 22px;
+    font-size:15px;
+    font-weight:bold;
+    
+}
+.cont-icon i:hover{
+    color:rgb(192, 17, 11);
+    transform: scale(.8);
+}
+/*contract-form design*/
+form{
+    width:700px;
+    height: auto;
+    margin: 0px auto;
+    margin-top:10px;
+    
+}
+.inputTag input{
+    font-size:20px;
+    padding:12px;
+    width:80%;
+    border:0px;
+    margin-top:10px;
+}
+textarea{
+    width:80%;
+    margin-top: 10px;
+    border:0px;
+}
+.inputTag button{
+    font-size:20px;
+    font-weight:bold;
+    padding:12px;
+    width:80%;
+    background:black;
+    color:white;
+    
+}
+.inputTag button:hover{
+    color:brown;
+    
+}
+/*footer design*/
+footer{
+    width:100%;
+    height:auto;
+    background:black;
+    color:white;
+    padding: 30px;
+    
+}
+.footer-icon i{
+    float: right;
+    display: inline;
+    padding:0px 15px;
+    font-size:30px;
+    transition:.5s;
+    padding-bottom:30px;
+   
+}
+.footer-icon i:hover{
+    transform:scale(.8);
+    color:brown;
+
+}
+.footer-text p{
+    font-size:20px;
+    font-weight:bold;
+    text-transform:uppercase;
+    word-spacing: .5em;
+}
